@@ -35,6 +35,8 @@ Feel free to suggest decent papers via a PR.
   * **Tags:** emulation, firmadyne, BOF, XSS, CI, NPD, semi-automatic
 * [2019 - Firm-AFL: High-Throughput Greybox Fuzzing of IoT Firmware via Augmented Process Emulation](https://www.usenix.org/system/files/sec19-zheng_0.pdf)
   * **Tags:** emulation, qemu, afl, full vs user mode, syscall redirect, "augmented process emulation", firmadyne
+* [2018 - PhASAR: An Inter-procedural Static Analysis Framework for C/C++](https://link.springer.com/content/pdf/10.1007%2F978-3-030-17465-1_22.pdf)
+  * **Tags:** LLVM, (inter-procedural) data-flow analysis, call-graph, points-to, class hierachy, CFG, IR
 * [2018 - INSTRIM: Lightweight Instrumentation forCoverage-guided Fuzzing](https://www.csie.ntu.edu.tw/~hchsiao/pub/2018_BAR.pdf)
   * **Tags:** LLVM, instrumentation optimization, graph algorithms, selective instrumentation, coverage calculation
 * [2018 - What You Corrupt Is Not What You Crash: Challenges in Fuzzing Embedded Devices](http://s3.eurecom.fr/docs/ndss18_muench.pdf)
@@ -52,7 +54,6 @@ Feel free to suggest decent papers via a PR.
 Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
-
 * [2020 - FairFuzz-TC: a fuzzer targeting rare branches](https://link.springer.com/article/10.1007/s10009-020-00569-w)
 * [2020 - Scalable Greybox Fuzzing for Effective Vulnerability Management DISS](https://mediatum.ub.tum.de/doc/1509837/file.pdf)
 * [2020 - HotFuzz Discovering Algorithmic Denial-of-Service Vulnerabilities through Guided Micro-Fuzzing](https://pdfs.semanticscholar.org/6515/a12fc8615a401e3c7a80d5ada59e5d057971.pdf)
@@ -69,12 +70,22 @@ Unread papers categorized by a common main theme.
 * [2020 - Typestate-Guided Fuzzer for Discovering Use-after-Free Vulnerabilities](https://yuleisui.github.io/publications/icse20.pdf)
 * [2020 - FuzzGuard: Filtering out Unreachable Inputs in Directed Grey-box Fuzzing through Deep Learning](https://www.usenix.org/system/files/sec20summer_zong_prepub.pdf)
 * [2020 - HyDiff: Hybrid Differential Software Analysis](https://yannicnoller.github.io/publications/icse2020_noller_hydiff.pdf)
+* [2020 - GREYONE: Data Flow Sensitive Fuzzing](https://www.usenix.org/system/files/sec20spring_gan_prepub.pdf)
+* [2019 - Building Fast Fuzzers](https://arxiv.org/pdf/1911.07707.pdf)
 * [2019 - Superion: Grammar-Aware Greybox Fuzzing](https://arxiv.org/pdf/1812.01197.pdf)
 * [2019 - Compiler Fuzzing: How Much Does It Matter?](https://srg.doc.ic.ac.uk/files/papers/compilerbugs-oopsla-19.pdf)
 * [2019 - ProFuzzer: On-the-fly Input Type Probing for Better Zero-day Vulnerability Discovery](https://www.cs.purdue.edu/homes/ma229/papers/SP19.pdf)
 * [2019 - Grimoire: Synthesizing Structure while Fuzzing](https://www.usenix.org/system/files/sec19-blazytko.pdf)
+* [2019 - Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary](https://arxiv.org/pdf/1905.10499.pdf)
+* [2019 - SAVIOR: Towards Bug-Driven Hybrid Testing](https://arxiv.org/pdf/1906.07327.pdf)
+* [2019 - Matryoshka: Fuzzing Deeply Nested Branches](https://arxiv.org/pdf/1905.12228.pdf)
 * [2019 - FUDGE: Fuzz Driver Generation at Scale](https://www.domagoj-babic.com/uploads/Pubs/Fudge/esecfse19fudge.pdf)
+* [2019 - NAUTILUS: Fishing for Deep Bugs with Grammars](https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2018/12/17/NDSS19-Nautilus.pdf)
+* [2019 - Send Hardest Problems My Way: Probabilistic Path Prioritization for Hybrid Fuzzing](https://www.cs.ucr.edu/~heng/pubs/digfuzz_ndss19.pdf)
+* [2019 - EnFuzz: Ensemble Fuzzing with Seed Synchronization among Diverse Fuzzers](https://www.usenix.org/system/files/sec19-chen-yuanliang.pdf)
 * [2018 - Angora: Efficient Fuzzing by Principled Search](https://web.cs.ucdavis.edu/~hchen/paper/chen2018angora.pdf)
+* [2018 - FairFuzz: A Targeted Mutation Strategy for Increasing Greybox Fuzz Testing Coverage](https://www.carolemieux.com/fairfuzz-ase18.pdf)
+* [2018 - NEUZZ: Efficient Fuzzing with Neural Program Smoothing](https://arxiv.org/pdf/1807.05620.pdf)
 * [2018 - CollAFL: Path Sensitive Fuzzing](http://chao.100871.net/papers/oakland18.pdf)
 * [2018 - Full-speed Fuzzing: Reducing Fuzzing Overhead through Coverage-guided Tracing](https://arxiv.org/pdf/1812.11875.pdf)
 * [2018 - QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-yun.pdf)
@@ -104,6 +115,7 @@ Unread papers categorized by a common main theme.
 
 ### IoT fuzzing
 
+* [2020 - P2IM: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral Interface Modeling](https://www.usenix.org/system/files/sec20spring_feng_prepub_0.pdf)
 * [2020 - DICE: Automatic Emulation of DMA Input Channels for Dynamic Firmware Analysis](https://arxiv.org/pdf/2007.01502.pdf)
 * [2020 - Fw‐fuzz: A code coverage‐guided fuzzing framework for network protocols on firmware](https://onlinelibrary.wiley.com/doi/full/10.1002/cpe.5756)
 * [2020 - TAINT-DRIVEN FIRMWARE FUZZING OF EMBEDDED SYSTEMS THESIS](https://melisasavich.io/papers/thesis.pdf)
@@ -128,7 +140,9 @@ Unread papers categorized by a common main theme.
 * [2020 - Identification of Kernel Memory Corruption Using Kernel Memory Secret Observation Mechanism](https://search.ieice.org/bin/summary.php?id=e103-d_7_1462)
 * [2020 - HFL: Hybrid Fuzzing on the Linux Kernel](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24018.pdf)
 * [2020 - Realistic Error Injection for System Calls](https://arxiv.org/pdf/2006.04444.pdf)
+* [2020 - KRACE: Data Race Fuzzing for Kernel File Systems](https://www.cc.gatech.edu/~mxu80/pubs/xu:krace.pdf)
 * [2020 - USBFuzz: A Framework for Fuzzing USB Drivers by Device Emulation](https://hexhive.epfl.ch/publications/files/20SEC3.pdf)
+* [2019 - Fuzzing File Systems via Two-Dimensional Input Space Exploration](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8835267)
 * [2019 - Razzer: Finding Kernel Race Bugs through Fuzzing](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8835326)
 * [2019 - Unicorefuzz: On the Viability of Emulation for Kernel space Fuzzing](https://www.usenix.org/system/files/woot19-paper_maier.pdf)
 * [2017 - Stateful Fuzzing of Wireless Device Drivers in an Emulated Environment](https://pdfs.semanticscholar.org/26b9/97d7a83ce950db6d311ee65c268e756e0794.pdf)
@@ -169,7 +183,6 @@ Unread papers categorized by a common main theme.
 * [2020 - Similarity Based Binary Backdoor Detection via Attributed Control Flow Graph](https://ieeexplore.ieee.org/abstract/document/9085069)
 * [2020 - IoTSIT: A Static Instrumentation Tool for IoT Devices](https://ieeexplore.ieee.org/document/9084145)
 * [2017 - rev.ng: a unified binary analysis framework to recover CFGs and function boundaries](https://dl.acm.org/doi/abs/10.1145/3033019.3033028)
-* [2018 - PhASAR: An Inter-procedural Static Analysis Framework for C/C++](https://link.springer.com/content/pdf/10.1007%2F978-3-030-17465-1_22.pdf)
 * [2017 - Angr: The Next Generation of Binary Analysis](https://ieeexplore.ieee.org/abstract/document/8077799)
 * [2016 - Binary code is not easy](https://dl.acm.org/doi/abs/10.1145/2931037.2931047)
 * [2015 - Cross-Architecture Bug Search in Binary Executables](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7163056)
@@ -202,6 +215,7 @@ Unread papers categorized by a common main theme.
 * [2020 - COMPARING AFL SCALABILITY IN VIRTUAL-AND NATIVE ENVIRONMENT](https://jyx.jyu.fi/bitstream/handle/123456789/69772/URN%3ANBN%3Afi%3Ajyu-202006084029.pdf?sequence=1)
 * [2020 - SYMBION: Interleaving Symbolic with Concrete Execution](https://conand.me/publications/gritti-symbion-2020.pdf)
 * [2020 - Not All Coverage Measurements Are Equal: Fuzzing by Coverage Accounting for Input Prioritization](https://ajax4sec.github.io/papers/ndss20-fall-paper422.pdf)
+* [2019 - MOpt: Optimized Mutation Scheduling for Fuzzers](https://www.usenix.org/system/files/sec19-lyu.pdf)
 * [2019 - Toward the Analysis of Embedded Firmware through Automated Re-hosting](http://subwire.net/papers/pretender-final.pdf)
 * [2019 - FUZZIFICATION: Anti-Fuzzing Techniques](https://www.usenix.org/system/files/sec19fall_jung_prepub.pdf)
 * [2017 - Synthesizing Program Input Grammars](https://obastani.github.io/docs/pldi17.pdf)
